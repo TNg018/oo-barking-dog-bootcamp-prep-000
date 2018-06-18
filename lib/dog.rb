@@ -1,5 +1,5 @@
 class Dog
-  def name
+  def name(name = Fido)
     @name
   end
   def bark
